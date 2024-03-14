@@ -14,6 +14,7 @@
 }
 
 ul {
+  
     list-style-type: none;
     margin: 0;
     padding: 5;
@@ -22,6 +23,7 @@ ul {
   }
 
   li a {
+   
     display: block;
     color: white;
     text-align: center;
@@ -124,6 +126,50 @@ li {
   margin-left: 5%;
   font-size: 2em;
   margin-bottom: 1%;
+}
+
+
+/* CSS for teams page */
+
+.teams-heading{
+  font-family:Impact,'Arial Narrow Bold', sans-serif;
+  margin-top: 5%;
+  font-size: 4em;
+  margin-bottom:0%;
+  border-color:black;
+}
+
+.paragraph-page2{
+  color:white;
+  margin:20%;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 1.2em;
+  border-color: rgb(0, 0, 0);
+  margin-bottom:3%;
+ 
+}
+
+
+.ireland-team{
+  height:20%;
+  width:20%;
+  margin-top: 0%;
+  margin-left: 2%;
+  border:2px solid #ffffff;
+  
+
+}
+
+#irelandpage{
+  text-align: left;
+}
+
+.irish-description{
+  color:white;
+  float:left;
+  
+  
 }
 
 
