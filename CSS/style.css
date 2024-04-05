@@ -59,10 +59,7 @@ li {
   color: white;
 }
 .centered-text {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
   font-size:60px;
   text-shadow: -1px 1px 2px #000,
 				  1px 2px 6px #000,
@@ -71,10 +68,6 @@ li {
 }
 
 .main-text{
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size:30px;
   text-shadow: -1px 1px 2px #000,
 				  1px 2px 6px #000,
@@ -105,35 +98,43 @@ li {
   height:800px;
 }
 
-
-.table{
-  background-color:white;
-  color:black;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom:5%;
-  width:90%;
+/* Css for table  */
+.table {
+  background-color: white;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 90%;
+  font-size: 25px;
+  text-align: center;
+  border-collapse: collapse; /* Ensure border collapse */
 }
 
-.tables-heading{
+.tables-heading th {
   background-color: #000;
-  color:white;
+  color: white;
 }
 
+.tables-heading th,
+.table td {
+  border: 1px solid black; /* Add border for table cells */
+}
 
-.table-h3{
-  color:rgb(255, 255, 255);
+.table-h3 {
+  color: rgb(255, 255, 255);
   margin-left: 5%;
   font-size: 2em;
   margin-bottom: 1%;
 }
 
 
+
 /* CSS for teams page */
 
 .teams-heading{
   font-family:Impact,'Arial Narrow Bold', sans-serif;
-  margin-top: 5%;
+  margin-top: 3%;
   font-size: 4em;
   margin-bottom:0%;
   border-color:black;
@@ -154,22 +155,27 @@ li {
 .ireland-team{
   height:20%;
   width:20%;
+  float:left;
   margin-top: 0%;
   margin-left: 2%;
+  margin-right: 2%;
   border:2px solid #ffffff;
-  
-
 }
 
-#irelandpage{
-  text-align: left;
-}
+
 
 .irish-description{
   color:white;
-  float:left;
-  
-  
+  font-size: 20px;
+  margin-right:2%;
+
+}
+
+.heading-three{
+  color: rgb(255, 255, 255);
+  margin-left:2%;
+  font-size: 2em;
+  margin-bottom: 1%;
 }
 
 
