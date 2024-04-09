@@ -144,10 +144,7 @@ li {
 
 
 .secondSection {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
-  text-align: left; /* Align text content to the left */
+  text-align: center;
 
 }
 
@@ -170,20 +167,21 @@ li {
   height: auto; /* Maintain aspect ratio */
   max-width: 400px; /* Limit the maximum width */
   border: 2px solid #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .iframe {
   width: 21.5%; /* Make the iframe fill the container width */
-  height: 300px; /* Set the desired height */
+  height: 267px; /* Set the desired height */
   border: none; /* Remove iframe border */
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .heading-three {
   color: white;
   font-size: 2em;
   margin-bottom: 10px;
+  text-decoration:underline;
 }
 
 .ireland-paragraph{
@@ -193,8 +191,12 @@ li {
   padding-left: 15px;
   margin-left: 15px;
   float: right;
+}
 
-
+.more-info{
+  color:white;
+  text-align:center;
+  margin-left:48%;
 }
 
 
