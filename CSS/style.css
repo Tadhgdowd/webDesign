@@ -14,13 +14,12 @@
   text-align: center;
   font-size:20px;
 }
-.footer1 {
+footer {
   text-align: center;
   padding: 20px;
-  background: #161616;
+  background: #000000;
   color: #ffffff;
-  margin-bottom:0%;
-
+  
 }
 
 .first-heading{
@@ -283,3 +282,38 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+/* Ireland Team Page */
+
+.ireland-squad{
+  margin-top:1%;
+  width: 100%;
+  height:100%;
+ 
+}
+
+.triumphs{
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  margin-top:5%;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  font-size: 60px;
+}
+
+.h2{
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  margin-top:5%;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+
+.paragraph_one_ireland{
+  margin-top:5%;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  font-size: 35px;
+}
