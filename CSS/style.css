@@ -22,6 +22,14 @@ color: #ffffff;
 
 }
 
+
+#external-link{
+  color:white;
+  text-decoration: underline;
+  text-align: center;
+ 
+}
+
 .first-heading{
   text-align: center;
 }
@@ -129,6 +137,12 @@ width:85%;
 color:white;
 text-align: center;
 
+}
+
+.footer1 ul li a{
+  position:relative;
+  float:none;
+  margin-left:400px;
 }
 
 /* Css for table  */
@@ -331,6 +345,14 @@ margin-right:10%;
   list-style-type: decimal;
   display:list-item;
   float:none;
-  margin-left:35%;
+  margin-left:40%;
+  font-size: 3em;
+}
+
+.team-sheet ul li{
+  list-style-type:circle;
+  display:list-item;
+  float:none;
+  margin-left:40%;
   font-size: 3em;
 }
